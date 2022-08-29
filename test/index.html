@@ -1,0 +1,38 @@
+<html>
+<head>
+    <link rel = "stylesheet" href="style.css">
+</link>
+<style>
+    canvas{
+        position: absolute;
+		top: 0px;
+		left: 0px;
+		background: transparent;
+    }
+    #background{
+        background-image: url("maze.jpg");
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    #player{
+
+        position: absolute;
+		top: 0px;
+		left: 0px;
+		background: transparent;
+        z-index: 0;
+
+    }
+    
+</style>
+</head>
+
+<body>
+<canvas id = "player" width="1200" height="600"> This is a canvas</canvas> 
+<canvas id = "background" width="1200" height="600"> This is a canvas</canvas> 
+
+<script src="playerAnimation.js"></script>
+</body>
+
+</html>
+
