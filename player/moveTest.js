@@ -23,7 +23,7 @@ function drawFrame(frameX, frameY, canvasX, canvasY){
                frameX* width, frameY * height, width, height,
                canvasX, canvasY, scaledWidth, scaledHeight);
 }
-
+//start position of sprite
 this.spawn=function(x,y,speed){
   this.x;
   this.y;
