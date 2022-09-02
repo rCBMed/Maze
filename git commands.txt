@@ -1,0 +1,8 @@
+//Add chaqnges
+git add .
+
+//Add information about the changes to the master branch
+git commit -m "commit message"
+
+//Add changes to the repo on github
+git push
